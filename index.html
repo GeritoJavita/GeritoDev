@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <!-- Barra de progreso -->
+<div class="progress-bar"></div>
     <!-- Header y Navegación -->
     <header>
         <nav class="navbar">
@@ -50,6 +53,7 @@
                     increíbles, sino que también generen resultados para cualquier negocio.</br> 
                     ¿Que esperas para digitalizarte?
                 </p>
+               
                 <div class="hero-buttons">
                     <a href="#planes" class="btn btn-primary">Ver Planes</a>
                     <a href="#contacto" class="btn btn-secondary">Contactar</a>
@@ -120,14 +124,74 @@
             </div>
         </div>
     </section>
-
-    <!-- Sección Planes -->
-    <section id="planes" class="plans">
-        <div class="container">
-            <h2 class="section-title">Planes y Servicios</h2>
-            <p class="section-subtitle">Elige el plan que mejor se adapte a tus necesidades</p>
+<!-- Sección Proceso -->
+<section class="process">
+    <div class="container">
+        <h2 class="section-title">Mi Proceso de Trabajo</h2>
+        <p class="section-subtitle">Así es como transformamos tu idea en realidad</p>
+        
+        <div class="process-steps">
+            <div class="process-step reveal reveal-left">
+                <div class="step-number">01</div>
+                <div class="step-content">
+                    <h3>Consulta Inicial</h3>
+                    <p>Analizamos tus necesidades, objetivos y presupuesto para crear la solución perfecta.</p>
+                </div>
+            </div>
             
-            <div class="plans-grid">
+            <div class="process-step reveal reveal-right">
+                <div class="step-number">02</div>
+                <div class="step-content">
+                    <h3>Diseño y Planificación</h3>
+                    <p>Me mandas los recursos necesarios como imagenes, logos, paletas de colores(opcional) para comenzar!.</p>
+                </div>
+            </div>
+            
+            <div class="process-step reveal reveal-left">
+                <div class="step-number">03</div>
+                <div class="step-content">
+                    <h3>Desarrollo</h3>
+                    <p>Programo tu landing page con las mejores prácticas de HTML5, CSS3 y JavaScript, tendras una visualizacion demo para que 
+                        estes pendiente del avance!.</p>
+                </div>
+            </div>
+            
+            <div class="process-step reveal reveal-right">
+                <div class="step-number">04</div>
+                <div class="step-content">
+                    <h3>Revisión y Ajustes</h3>
+                    <p>Realizamos pruebas y ajustes hasta que el resultado sea exactamente lo que imaginaste.</p>
+                </div>
+            </div>
+            
+            <div class="process-step reveal reveal-left">
+                <div class="step-number">05</div>
+                <div class="step-content">
+                    <h3>Entrega</h3>
+                    <p>Entregamos tu proyecto listo para impresionar a tus clientes y generar resultados.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   <!-- Sección Planes -->
+<section id="planes" class="plans">
+    <div class="container">
+        <h2 class="section-title">Planes y Servicios</h2>
+        
+        
+        <!-- Añade este banner de personalización -->
+        <div class="custom-banner">
+            <div class="custom-icon">
+                <i class="fas fa-handshake"></i>
+            </div>
+            <div class="custom-content">
+                <h3>Precios Personalizados</h3>
+                <p>¿Tienes un presupuesto específico? ¡Trabajemos juntos! Adapto mis servicios a tus necesidades y posibilidades económicas.</p>
+            </div>
+        </div>
+        
+        <div class="plans-grid">
                 <div class="plan-card">
                     <div class="plan-header">
                         <h3>Landing Page Básica</h3>
@@ -226,7 +290,7 @@
                     </div>
                     <div class="portfolio-content">
                         <h3>Portafolio Personal</h3>
-                        <p>Sitio web personal para un fotógrafo profesional con galería de trabajos y formulario de contacto.</p>
+                        <p>Sitio web personal para un artista profesional con galería de trabajos y formulario de contacto.</p>
                         <div class="portfolio-tags">
                             <span>HTML5</span>
                             <span>CSS3</span>
@@ -241,7 +305,7 @@
                     </div>
                     <div class="portfolio-content">
                         <h3>Tienda Online Básica</h3>
-                        <p>Catálogo de productos con carrito de compras funcional y pasarela de pago integrada.</p>
+                        <p>Catálogo de productos con direccionamiento WhatsApp y mas de 3 vistas.</p>
                         <div class="portfolio-tags">
                             <span>HTML5</span>
                             <span>CSS3</span>
@@ -282,7 +346,7 @@
                         </div>
                         <div class="contact-details">
                             <h3>Email</h3>
-                            <p>tuemail@ejemplo.com</p>
+                            <p>geritodeveloper.co@gmail.com</p>
                         </div>
                     </div>
                     
@@ -292,7 +356,7 @@
                         </div>
                         <div class="contact-details">
                             <h3>Teléfono</h3>
-                            <p>+1 234 567 890</p>
+                            <p>+57 3136552604</p>
                         </div>
                     </div>
                     
@@ -302,7 +366,7 @@
                         </div>
                         <div class="contact-details">
                             <h3>Ubicación</h3>
-                            <p>Ciudad, País</p>
+                            <p>Bogotá, Colombia</p>
                         </div>
                     </div>
                 </div>
@@ -333,14 +397,14 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>DevWeb<span>.</span></h3>
+                    <h3>GeroDevCo<span>.</span></h3>
                     <p>Desarrollador web especializado en crear landing pages modernas y funcionales con HTML5, CSS3 y JavaScript.</p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
+   
+           
                         <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+  
                     </div>
                 </div>
                 
@@ -369,9 +433,9 @@
                 <div class="footer-section">
                     <h4>Contacto</h4>
                     <ul>
-                        <li><i class="fas fa-envelope"></i> tuemail@ejemplo.com</li>
-                        <li><i class="fas fa-phone"></i> +1 234 567 890</li>
-                        <li><i class="fas fa-map-marker-alt"></i> Ciudad, País</li>
+                        <li><i class="fas fa-envelope"></i> geritodeveloper.co@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> +57 3136552604</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Colombia, Bogotá</li>
                     </ul>
                 </div>
             </div>
